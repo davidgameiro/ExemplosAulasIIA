@@ -1,0 +1,15 @@
+Atualizações aplicadas automaticamente pelo GitHub Copilot
+
+Data: 2026-09-23T00:00:00Z
+
+Arquivos modificados:
+- 2026_2027/Aulas2026_2027.slnx (modificado)
+
+Arquivos novos / não rastreados adicionados:
+- 2026_2027/Ex2_CarregarImagem/ (novo)
+- 2026_2027/NotepadDG/ (novo)
+
+Descrição:
+Aplicadas as últimas alterações no repositório: atualização da solução e adição dos diretórios Ex2_CarregarImagem e NotepadDG.
+
+Nota: ficheiro gerado automaticamente para servir de mensagem de commit.
