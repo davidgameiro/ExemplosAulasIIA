@@ -1,10 +1,11 @@
 <Solution>
   <Folder Name="/TCPIP/">
     <Project Path="Client-TCPIP/Client/ClientTCPIP.csproj" Id="fe971a3c-e052-4f40-8237-2c7773b3ee84" />
-    <Project Path="Server-TCPIP/Server/ServerTCPIP.csproj" />
+    <Project Path="Server-TCPIP/Server/ServerTCPIP.csproj" Id="7a3472e8-87c9-4203-b481-bb0552e38a9b" />
   </Folder>
   <Project Path="Calculadora/Calculadora.csproj" />
   <Project Path="ClienteModBus/ClienteModBus/ClienteModBus.csproj" Id="c27a0394-0130-4cfa-bef5-b810d859872e" />
   <Project Path="Ex2_CarregarImagem/Ex2_CarregarImagem.csproj" Id="07461e26-177e-406f-8130-d86d18645507" />
+  <Project Path="ExemploFormModBus/ExemploFormModBus.csproj" Id="3570a41c-278e-4c5c-a8c0-d37d5ceb02a1" />
   <Project Path="NotepadDG/Notepad2026.csproj" Id="f9686dd2-bb06-4e89-8d04-4ff01cd83654" />
 </Solution>
