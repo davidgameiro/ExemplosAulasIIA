@@ -36,6 +36,7 @@ namespace ExemploFormModBus
 
             uC_Exemplo1.Atualiza(valores[8], valores[9], "Exemplo 1");
             uC_Exemplo2.Atualiza(valores[10], valores[11], "Exemplo 2");
+            //gosto muito de dar exemplos os Tomás
         }
     }
 }

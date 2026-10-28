@@ -34,6 +34,8 @@
             toolStripStatusLabel1 = new ToolStripStatusLabel();
             tLbModBus2 = new ToolStripStatusLabel();
             splitContainer1 = new SplitContainer();
+            uC_Exemplo2 = new UC_Exemplo();
+            uC_Exemplo1 = new UC_Exemplo();
             ucTest4 = new UCTest();
             ucTest3 = new UCTest();
             ucTest2 = new UCTest();
@@ -41,8 +43,6 @@
             richTextBox2 = new RichTextBox();
             richTextBox1 = new RichTextBox();
             timer1 = new System.Windows.Forms.Timer(components);
-            uC_Exemplo1 = new UC_Exemplo();
-            uC_Exemplo2 = new UC_Exemplo();
             statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel2.SuspendLayout();
@@ -97,6 +97,20 @@
             splitContainer1.SplitterDistance = 64;
             splitContainer1.TabIndex = 1;
             // 
+            // uC_Exemplo2
+            // 
+            uC_Exemplo2.Location = new Point(254, 284);
+            uC_Exemplo2.Name = "uC_Exemplo2";
+            uC_Exemplo2.Size = new Size(199, 204);
+            uC_Exemplo2.TabIndex = 3;
+            // 
+            // uC_Exemplo1
+            // 
+            uC_Exemplo1.Location = new Point(715, 284);
+            uC_Exemplo1.Name = "uC_Exemplo1";
+            uC_Exemplo1.Size = new Size(199, 204);
+            uC_Exemplo1.TabIndex = 3;
+            // 
             // ucTest4
             // 
             ucTest4.Location = new Point(383, 193);
@@ -146,20 +160,6 @@
             timer1.Enabled = true;
             timer1.Interval = 200;
             timer1.Tick += timer1_Tick;
-            // 
-            // uC_Exemplo1
-            // 
-            uC_Exemplo1.Location = new Point(715, 284);
-            uC_Exemplo1.Name = "uC_Exemplo1";
-            uC_Exemplo1.Size = new Size(199, 204);
-            uC_Exemplo1.TabIndex = 3;
-            // 
-            // uC_Exemplo2
-            // 
-            uC_Exemplo2.Location = new Point(510, 284);
-            uC_Exemplo2.Name = "uC_Exemplo2";
-            uC_Exemplo2.Size = new Size(199, 204);
-            uC_Exemplo2.TabIndex = 3;
             // 
             // MainFrm
             // 
