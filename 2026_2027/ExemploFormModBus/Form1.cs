@@ -24,6 +24,8 @@ namespace ExemploFormModBus
 
             richTextBox1.Text = string.Join(Environment.NewLine, modbus.Valores.Select((v, i) => $"Registo {i}: {v}"));
             var valores = modbus2.Atualiza(0, numRegistos);
+            if (valores.Count != numRegistos)
+                return;
 
             richTextBox2.Text = string.Join(Environment.NewLine, valores.Select((v, i) => $"Registo {i}: {v}"));
 
